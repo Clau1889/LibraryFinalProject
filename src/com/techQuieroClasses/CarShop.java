@@ -50,7 +50,7 @@ public class CarShop extends Library{
 
         for(int i= 0; i<listBooksToBuy.size();  i++) {
             sum= sum+= listBooksToBuy.get(i).getPrice();
-
+            System.out.println(listBooksToBuy.get(i));
 
         }
 
