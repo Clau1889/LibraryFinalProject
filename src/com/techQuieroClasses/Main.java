@@ -76,6 +76,7 @@ public class Main {
             } else {
                 System.out.println("***** NOTE *****");
                 cshop.printOrder();
+                cshop.totalOrder();
 
             }
 
@@ -84,7 +85,7 @@ public class Main {
 
 
 
-        System.out.print ("\n\n\t Total Books:  " +cshop.getListBooksToBuy().size());
+
 
 
 
