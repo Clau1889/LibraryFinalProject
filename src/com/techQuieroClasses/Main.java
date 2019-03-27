@@ -74,7 +74,7 @@ public class Main {
 
 
             } else {
-                System.out.println("***** NOTE *****");
+                System.out.println("\n\n\t\t\t\t ***** NOTE *****");
                 cshop.printOrder();
                 cshop.totalOrder();
 
