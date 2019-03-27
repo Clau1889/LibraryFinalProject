@@ -49,11 +49,16 @@ public class CarShop extends Library{
         Double sum= 0.0;
 
         for(int i= 0; i<listBooksToBuy.size();  i++) {
+            sum= sum+= listBooksToBuy.get(i).getPrice();
 
-            out.println("\t ------>  \t\tTotal: " + sum+= lib.getPrice());
-            out.println("\n\t\t\tTHANK YOU TO BUY WITH US.");
-            out.println();
+
         }
+
+        out.print ("\n\n\t Total Books:  " +listBooksToBuy.size());
+        out.println("\t ------>  \t\tTotal: " + sum);
+        out.println("\n\t\t\tTHANK YOU TO BUY WITH US!!!!!!.");
+
+        return sum;
     }
 
 
